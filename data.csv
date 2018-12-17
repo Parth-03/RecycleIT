@@ -1,0 +1,53 @@
+material,name,examples,plasticNumber,outcome
+Plastics,Polyethylene terephthalate (PETE or PET),"Water bottle, soda bottle",1,"Not safe to reuse, recycle"
+Plastics,High-Density Polyethylene (HDPE),"Milk bottles, shampoos, soap bottles, detergents, motor oil bottles",2,Dishwasher safe to reuse
+Plastics,Polyvinyl chloride (PVC),"Plumbing pipes, furniture",3,Not recyclable
+Plastics,Low-Density Polyethylene (LDPE),"Grocery bags, plastic cling wrap, sandwich bags,squeeze bottles",4,Not recyclable
+Plastics,Polypropylene (PP),"Diapers, tupperware, medecine bottles",5,Recyclable
+Plastics,Polystyrene (PS),"Egg cartons, coffee cups, plastic utensils",6,Not recyclable
+Metals,Gold/Silver,"jewellery, fillings",,Recylable
+Metals,Aluminum,"aluminum can, foil, tray, bicycle",,Recyclable
+Metals,Brass,musical instruments,,Recyclable
+Metals,Copper,"Scrap copper, copper wire",,Recyclable
+Metals,Ferrous Metals,"cast iron engine block, wrought iron barbed wire",,Recyclable
+Metals,Grills,Barbeque grills,,Not recyclable
+Metals,Pipe,pipe,,Recyclable
+Metals,Stainless Steel,"Knife, trays, utensils, screws,",,Recyclable
+Glass,Crown Glass,"interior design, tableware",,Recyclable
+Glass,Stained Glass,"windhsields, alchoholic beverages, photochromic spectacles",,Recyclable
+Glass,Clear Glass,"windows, mirrors",,Recyclable
+Glass,Treated Glass,"test tubes, shower door, phone screen",,Recyclable
+Food Waste,Uneaten food,"burgers, pizzas, sandwiches, leftovers, etc.",,Recyclable
+Food Waste,"Tea bags, coffee grounds","green tea, iced tea, coffee beans",,Recyclable
+Food Waste,"Out of date, moldy food",expired stuff,,not recyclable
+Paper,Craft paper,"A4 paper, colored paper",,Recyclable
+Paper,Tissue paper,"wet wipes, paper towels",,Recyclable
+Paper,Newspaper,printed newspaper,,Recyclable
+Paper,Cardboard,"storage card board, construction paper",,Recyclable
+Paper,Magazines,glossy magazine paper,,Recyclable
+Paper,Photographic paper,"film, developing paper, photographs",,Not recyclable
+Paper,Posters,"wallpapers, stickers",,Recyclable
+Paper,Chart paper,"small, large",,Recyclable
+Paper,Paper bags,"grocery bags, sandwich bags",,Recyclable
+Electronics,Cameras,"digital, polaroid, flash",,Recyclable
+Electronics,Cell Phone,"touch screen, chat, flip, slide",,Recyclable
+Electronics,Computer,"laptop, desktop, monitor, cpu, keyboard, mouse",,Recyclable
+Electronics,Television,"LCD, HD, 3D, old-fashioned",,Recyclable
+Electronics,Batteries,"AA, AAA",,Not recyclable
+Electronics,Game console,"PS4, XBOX, Gamecube",,Recyclable
+Electronics,CD,"blu-ray, game discs",,Recyclable
+Electronics,Watches,"digital, analog",,Not recyclable
+Electronics,Radio,"Walky-talky, radio transmitter",,Recyclable
+Electronics,Hard drives,"USB, external hard drive, floppy disks",,Recyclable
+Electronics,Misc.,"Speakers, Headphones, bluetooth",,Recyclable
+Hazardous Materials,Air Conditioner,"radiators, heaters, coolers",,Recyclable
+Hazardous Materials,Car Batteries,"diodes, transmissions, electric car batteries",,Recyclable
+Hazardous Materials,Chemistry Sets,"chemicals (acids, solutions), burners",,not recyclable
+Hazardous Materials,Refrigerators,with freezer/ no freezer,,not recyclable
+Hazardous Materials,Drugs,"Prescription, marijuana, cocaine, pills",,not recyclable
+Hazardous Materials,Fertilizers,"pesticides, manure, accelerants",,not recyclable
+Hazardous Materials,Gas/Oil,"diesel, petrol, biofuel",,not recyclable
+Hazardous Materials,Sprays,"deodarants, hair sprays, air freshners",,not recyclable
+Hazardous Materials,Insecticieds,"herbicides, bug repellant, pollen",,not recyclable
+Hazardous Materials,Thermostats,"mercuric, baric",,not recyclable
+Hazardous Materials,Paint,"acryllic, water colour, organic",,not recyclable

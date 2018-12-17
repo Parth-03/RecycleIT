@@ -7,10 +7,17 @@
 //
 
 import UIKit
+import CSV
 
-class CollectionViewController: UICollectionViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class CollectionViewController: UICollectionViewController, UINavigationControllerDelegate {
     
-    let materials = ["Plastics", "Metals", "Food Waste", "Hazardous Waste", "Glass", "Liquids", "Electronics", "Other"]
+    var materials = [String]()
+    var recycleItems = [RecycleItem]()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        dataSetup()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,18 +25,47 @@ class CollectionViewController: UICollectionViewController, UIImagePickerControl
     }
     
     func dataSetup(){
+        let csvPath = Bundle.main.path(forResource: "data", ofType: "csv")
+        let csvURL = URL(fileURLWithPath: csvPath!)
+        let stream = InputStream(url: csvURL)!
         
+
+        do {
+            let csv = try CSVReader(stream: stream, hasHeaderRow: true)
+            let decoder = CSVRowDecoder()
+            while csv.next() !=  nil {
+                let row = try decoder.decode(RecycleItem.self, from: csv)
+                recycleItems.append(row)
+            }
+            
+            
+        } catch {
+            print(error)
+        }
+        for item in recycleItems {
+            let material = item.material
+            if !materials.contains(material){
+                materials.append(material)
+            }
+        }
     }
     
     //Collection View Methods
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
-        
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return materials.count
-        
+        var matieralsNumber = 0
+        var materials = [String]()
+        for item in recycleItems {
+            let material = item.material
+            if !materials.contains(material){
+                matieralsNumber += 1
+                materials.append(material)
+            }
+        }
+        return matieralsNumber
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -43,14 +79,6 @@ class CollectionViewController: UICollectionViewController, UIImagePickerControl
         cell.layer.cornerRadius = 6.0
         return cell
     }
-    
-//    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-//        print(detailVC)
-//        //detailVC.imageView.image = UIImage(named: materials[indexPath.row])
-//        //self.navigationController?.pushViewController(detailVC, animated: true)
-//    }
-    
     
     
     required init?(coder aDecoder: NSCoder) {
@@ -67,22 +95,44 @@ class CollectionViewController: UICollectionViewController, UIImagePickerControl
         vc.delegate = self
         present(vc, animated: true)
     
-    
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "ShowDetail" {
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		if segue.identifier == "ShowTableView" {
+			if let destinationVC = segue.destination as? TableViewController {
+				let cell = sender as! MaterialsViewCell
+				var tableViewItems = [RecycleItem]()
+				let indexPath = collectionView.indexPath(for: cell)!
+				let material = materials[indexPath.row]
+				let backButton = UIBarButtonItem()
+				backButton.title = material
+				navigationItem.backBarButtonItem = backButton
+				
+				for item in recycleItems {
+					if item.material == material {
+						tableViewItems.append(item)
+					}
+					destinationVC.items = tableViewItems
+				}
+			}
+        } else if segue.identifier == "ShowDetailFromCamera" {
             if let destinationVC = segue.destination as? DetailViewController {
-                //destinationVC.imageView.image = UIImage(named: materials[collectionView?.indexPathsForSelectedItems[0]!.row])
-                //destinationVC.materialLabel.text = materials[collectionView?.indexPathsForSelectedItems[0]!.row]
+                let item = sender as! RecycleItem
+                destinationVC.item = item
             }
         }
+        
+	}
 
-    }
-
-    
-    
 }
 
-
+extension CollectionViewController: UIImagePickerControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        picker.dismiss(animated: true){
+            let randomNum = Int.random(in: 0..<self.recycleItems.count)
+            let item = self.recycleItems[randomNum]
+            self.performSegue(withIdentifier: "ShowDetailFromCamera", sender: item)
+        }
+    }
+}
 
