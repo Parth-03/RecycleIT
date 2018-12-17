@@ -14,6 +14,7 @@ struct RecycleItem: Codable {
     let material: String
     let examples: String
     let outcome: String
+    let recyclingInformation: String
     let plasticNumber: Int?
 	
 	
@@ -21,12 +22,14 @@ struct RecycleItem: Codable {
 		material: String = "",
 		examples: String = "",
 		outcome: String = "",
+        recyclingInformation: String = "",
 		plasticNumber: Int? = nil
 		){
 		self.name = name
 		self.material = material
 		self.examples = examples
 		self.outcome = outcome
+        self.recyclingInformation = recyclingInformation
 		self.plasticNumber = plasticNumber
 	}
 }

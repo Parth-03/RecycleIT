@@ -1,53 +1,53 @@
-material,name,examples,plasticNumber,outcome
-Plastics,Polyethylene terephthalate (PETE or PET),"Water bottle, soda bottle",1,"Not safe to reuse, recycle"
-Plastics,High-Density Polyethylene (HDPE),"Milk bottles, shampoos, soap bottles, detergents, motor oil bottles",2,Dishwasher safe to reuse
-Plastics,Polyvinyl chloride (PVC),"Plumbing pipes, furniture",3,Not recyclable
-Plastics,Low-Density Polyethylene (LDPE),"Grocery bags, plastic cling wrap, sandwich bags,squeeze bottles",4,Not recyclable
-Plastics,Polypropylene (PP),"Diapers, tupperware, medecine bottles",5,Recyclable
-Plastics,Polystyrene (PS),"Egg cartons, coffee cups, plastic utensils",6,Not recyclable
-Metals,Gold/Silver,"jewellery, fillings",,Recylable
-Metals,Aluminum,"aluminum can, foil, tray, bicycle",,Recyclable
-Metals,Brass,musical instruments,,Recyclable
-Metals,Copper,"Scrap copper, copper wire",,Recyclable
-Metals,Ferrous Metals,"cast iron engine block, wrought iron barbed wire",,Recyclable
-Metals,Grills,Barbeque grills,,Not recyclable
-Metals,Pipe,pipe,,Recyclable
-Metals,Stainless Steel,"Knife, trays, utensils, screws,",,Recyclable
-Glass,Crown Glass,"interior design, tableware",,Recyclable
-Glass,Stained Glass,"windhsields, alchoholic beverages, photochromic spectacles",,Recyclable
-Glass,Clear Glass,"windows, mirrors",,Recyclable
-Glass,Treated Glass,"test tubes, shower door, phone screen",,Recyclable
-Food Waste,Uneaten food,"burgers, pizzas, sandwiches, leftovers, etc.",,Recyclable
-Food Waste,"Tea bags, coffee grounds","green tea, iced tea, coffee beans",,Recyclable
-Food Waste,"Out of date, moldy food",expired stuff,,not recyclable
-Paper,Craft paper,"A4 paper, colored paper",,Recyclable
-Paper,Tissue paper,"wet wipes, paper towels",,Recyclable
-Paper,Newspaper,printed newspaper,,Recyclable
-Paper,Cardboard,"storage card board, construction paper",,Recyclable
-Paper,Magazines,glossy magazine paper,,Recyclable
-Paper,Photographic paper,"film, developing paper, photographs",,Not recyclable
-Paper,Posters,"wallpapers, stickers",,Recyclable
-Paper,Chart paper,"small, large",,Recyclable
-Paper,Paper bags,"grocery bags, sandwich bags",,Recyclable
-Electronics,Cameras,"digital, polaroid, flash",,Recyclable
-Electronics,Cell Phone,"touch screen, chat, flip, slide",,Recyclable
-Electronics,Computer,"laptop, desktop, monitor, cpu, keyboard, mouse",,Recyclable
-Electronics,Television,"LCD, HD, 3D, old-fashioned",,Recyclable
-Electronics,Batteries,"AA, AAA",,Not recyclable
-Electronics,Game console,"PS4, XBOX, Gamecube",,Recyclable
-Electronics,CD,"blu-ray, game discs",,Recyclable
-Electronics,Watches,"digital, analog",,Not recyclable
-Electronics,Radio,"Walky-talky, radio transmitter",,Recyclable
-Electronics,Hard drives,"USB, external hard drive, floppy disks",,Recyclable
-Electronics,Misc.,"Speakers, Headphones, bluetooth",,Recyclable
-Hazardous Materials,Air Conditioner,"radiators, heaters, coolers",,Recyclable
-Hazardous Materials,Car Batteries,"diodes, transmissions, electric car batteries",,Recyclable
-Hazardous Materials,Chemistry Sets,"chemicals (acids, solutions), burners",,not recyclable
-Hazardous Materials,Refrigerators,with freezer/ no freezer,,not recyclable
-Hazardous Materials,Drugs,"Prescription, marijuana, cocaine, pills",,not recyclable
-Hazardous Materials,Fertilizers,"pesticides, manure, accelerants",,not recyclable
-Hazardous Materials,Gas/Oil,"diesel, petrol, biofuel",,not recyclable
-Hazardous Materials,Sprays,"deodarants, hair sprays, air freshners",,not recyclable
-Hazardous Materials,Insecticieds,"herbicides, bug repellant, pollen",,not recyclable
-Hazardous Materials,Thermostats,"mercuric, baric",,not recyclable
-Hazardous Materials,Paint,"acryllic, water colour, organic",,not recyclable
+material,name,examples,recyclingInformation,plasticNumber,outcome
+Plastics,Polyethylene terephthalate,"Water bottle, soda bottle","Take the cap off. Rinse the bottle with water. Remove the label and plastic seal, if necessary. Repeat the process for the other bottles. Consider crushing the bottles if you have a lot of them. Place the bottles into a bag.",1,"Not safe to reuse, recycle"
+Plastics,High-Density Polyethylene,"Milk bottles, shampoos, soap bottles, detergents, motor oil bottles","After a quick rinse, Then simply put it out for curbside pickup or take it to your nearest recycling center.",2,Dishwasher safe to reuse
+Plastics,Polyvinyl chloride,"Plumbing pipes, furniture","Call a local secondhand store to see if your product can be donated. Even if your furniture needs repair, many stores will perform these functions and resell your items. ",3,Not recyclable
+Plastics,Low-Density Polyethylene,"Grocery bags, plastic cling wrap, sandwich bags,squeeze bottles","Remove anything inside the bags, Keep a bag collection bin in your house, drop them off at your local grocery store.",4,Not recyclable
+Plastics,Polypropylene,"Diapers, tupperware, medecine bottles",Be sure to dump any remnants into a toilet. Try to wrap them as tightly as possible to reduce risk of spillage. Put them in a sealed trash can if possible.,5,Recyclable
+Plastics,Polystyrene,"Egg cartons, coffee cups, plastic utensils","Use empty items as organizers for garage items such as nuts, bolts and screws, or craft items such as buttons, threads, beads and pastels.",6,Not recyclable
+Metals,Gold/Silver,"jewellery, fillings",Each can be melted down and turned back into jewelry or used in computer circuit boards and many other items,,Recylable
+Metals,Aluminum,"aluminum can, foil, tray, bicycle",Clean as much as possible before recycling. Separate them from the packagaing. Combine into one ball.,,Recyclable
+Metals,Brass,musical instruments,Dissasemble the parts. Weigh the items. Drop them off at a scrap metal dealer.,,Recyclable
+Metals,Copper,"Scrap copper, copper wire","Bundle your copper wire to make it manageable to handle, and weigh it. ",,Recyclable
+Metals,Ferrous Metals,"cast iron engine block, wrought iron barbed wire",Scrap-metal dealers operate in most major cities and are a good option for recycling iron materials.,,Recyclable
+Metals,Grills,Barbeque grills,They should be disposed of in the standard garbage waste pick-up. Metal side shelves can be broken down and recycled at your local scrap metal dealer. Cut off the hose that runs from the tank connector to the burners and dispose of it in the standard domestic garbage waste pick-up.,,Not recyclable
+Metals,Pipe,pipe,Ground into small pieces that can be easily processed into new compounds ready to be melted and formed into new products.,,Recyclable
+Metals,Stainless Steel,"Knife, trays, utensils, screws,","Place them wrapped in a cardboard box and throw it away. If you're intent on throwing away the knife, place it in a box before throwing it out. ",,Recyclable
+Glass,Crown Glass,"interior design, tableware",Reduced to glass pieces called cullet at plants with systems large enough for this job.,,Recyclable
+Glass,Stained Glass,"windhsields, alchoholic beverages, photochromic spectacles","The windshield must be manually rolled into a machine that is seventy inches long and fifty inches wide. Once the windshield is fed through this machine, it breaks up the chunks of PVC allowing for easy separation.",,Recyclable
+Glass,Clear Glass,"windows, mirrors","Carefully put the pieces of the broken mirror into a trash bag. Close the bag, and then put it inside a second trash bag. Visit your waste collection",,Recyclable
+Glass,Treated Glass,"test tubes, shower door, phone screen",Place non-contaminated glassware in sturdy cardboard box lined with a plastic bag. Securely seal the box with tape. Label the box “CLEAN Lab Glass - Trash”. Place in the trash or directly into a dumpster.,,Recyclable
+Food Waste,Uneaten food,"burgers, pizzas, sandwiches, leftovers, etc.","Use food scraps such as fruits and vegetables, coffee grounds, eggshells, nutshells. Do not dispose of meat, dairy or oils this way. Add the food waste to cardboard, newspaper, vegetation and other organic materials in your compost pile.",,Recyclable
+Food Waste,"Tea bags, coffee grounds","green tea, iced tea, coffee beans","Tea bags go in the compost, but most wrappers in which teabags come go in the trash",,Recyclable
+Food Waste,"Out of date, moldy food",expired stuff,Throw them in the trash.,,not recyclable
+Paper,Craft paper,"A4 paper, colored paper","The separated paper is then washed with soapy water to remove inks, plastic film, staples and glue. The paper is put into a large holder where it is mixed with water to create 'slurry'.",,Recyclable
+Paper,Tissue paper,"wet wipes, paper towels","Instead of tossing used paper towels into the garbage can, toss them into the compost bin along with eggshells, coffee grounds and filters and scraps of fruit and vegetables. ",,Recyclable
+Paper,Newspaper,printed newspaper,"Damp newspaper strips are the most common bedding material, meaning you can use all of your old newspaper at home if you have a worm bin set up.",,Recyclable
+Paper,Cardboard,"storage card board, construction paper","Separate it from other paper, such as office paper and newspaper. The cardboard is then baled and sent to a mill, shredded into small pieces, and put in a pulping machine to introduce water/chemicals and break down the cardboard into fibers.",,Recyclable
+Paper,Magazines,glossy magazine paper,"Most curbside programs accept them for recycling. Many recycling centers will take them also. Collections of magazines may be valuable to collectors, depending on their age and condition. Magazines can also be great for craft projects of all sorts.",,Recyclable
+Paper,Photographic paper,"film, developing paper, photographs","Those chemicals cannot be mixed in with normal paper. If you live in an area where your curbside recycler accepts photographs printed on newer photo paper, you can toss them in the recycling bin when you no longer want them. Otherwise, reuse is your only eco-friendly option for recycling old pictures.",,Not recyclable
+Paper,Posters,"wallpapers, stickers","Add used or leftover wallpaper scraps to the contents of your recycling bin, because it is primarily made of paper. Unfortunately, it's not that simple. Some types of wallpaper contain a high concentration of synthetic inks and dyes that is difficult and costly to separate from the paper.",,Recyclable
+Paper,Chart paper,"small, large","The separated paper is then washed with soapy water to remove inks, plastic film, staples and glue. The paper is put into a large holder where it is mixed with water to create 'slurry'.",,Recyclable
+Paper,Paper bags,"grocery bags, sandwich bags","Paper bags can be recycled, even if they have handles attached with adhesive; adhesive does not contaminate paper recycling. If the handle is not made of paper, tear it off and then recycle the bag.",,Recyclable
+Electronics,Cameras,"digital, polaroid, flash","When you recycle your digital camera, make sure you include items like battery chargers and the cords to connect the camera to the computer. They also contain metals and plastic that can be recycled.",,Recyclable
+Electronics,Cell Phone,"touch screen, chat, flip, slide","You can dispose of it at most household waste and recycling centres in the containers marked ""small electricals"".",,Recyclable
+Electronics,Computer,"laptop, desktop, monitor, cpu, keyboard, mouse","Instead of dumping your laptop in the trash, look for electronic collection programs that will help you recycle it",,Recyclable
+Electronics,Television,"LCD, HD, 3D, old-fashioned","Big-screen TVs, office copiers/printers and audio receivers/amplifiers fall into the large electronics category for recycling purposes because they contain many of the same wires and computer components that are valued in the recycling market.",,Recyclable
+Electronics,Batteries,"AA, AAA","Alkaline batteries can be safely disposed of with normal household waste.” Energizer confirms that regular batteries are fine to toss in the trash, but says rechargeable batteries should be recycled according to US federal guidelines.",,Not recyclable
+Electronics,Game console,"PS4, XBOX, Gamecube","Decluttr is one of the best ways to recycle your unwanted gaming console, regardless of its state.",,Recyclable
+Electronics,CD,"blu-ray, game discs","Make sure to remove any paper sleeves, as these can be recycled with other paper. Find a drop-off location for CDs and tapes near you using the Recycling Locator.",,Recyclable
+Electronics,Watches,"digital, analog","There are on-line organisations such as Recycling for Good Causes that accept watches regardless of condition via the post, for re-sale",,Not recyclable
+Electronics,Radio,"Walky-talky, radio transmitter","Gather your unwanted radios, along with any other electronic devices you want to donate, and pack them in a box. Tape shut the box to secure the electronics. Find a recycling center or charity that accepts used electronics like AM/FM radios.",,Recyclable
+Electronics,Hard drives,"USB, external hard drive, floppy disks",Remove the first set of screws. Remove the second set of screws and cut the seal. Open the cover and remove more screws. Remove the magnets and the read/write arm. Remove the data disk. Remove the motor and remaining magnets. Recycle the aluminum.,,Recyclable
+Electronics,Misc.,"Speakers, Headphones, bluetooth","If your headphones still work but you are upgrading to something bigger and/or better, you can donate your old headphones to a thrift store. But most curbside programs do not accept electronic waste and therefore will not take headphones.",,Recyclable
+Hazardous Materials,Air Conditioner,"radiators, heaters, coolers","To throw out an air conditioner, make an appointment to have the Department of Sanitation remove the chlorofluorocarbons (CFC). They will then tag the air conditioner and collect it on your next recycling day.",,Recyclable
+Hazardous Materials,Car Batteries,"diodes, transmissions, electric car batteries","Used batteries are collected from drop-off locations and transported to recycling centers. There, the lead is separated from the polypropylene (plastic case) and fed into a furnace to be melted down. The lead is then reused to manufacture new batteries.",,Recyclable
+Hazardous Materials,Chemistry Sets,"chemicals (acids, solutions), burners",Use proper safety precautions. Dilute bleach and hydrogen peroxide to pour down the drain. Store solvents for special collection. . Recycle automotive fluids. Drain all aerosol canisters. Return pool chemicals back to your local pool store.,,not recyclable
+Hazardous Materials,Refrigerators,with freezer/ no freezer,Talk to Your Local Scrap Metal Recycler.,,not recyclable
+Hazardous Materials,Drugs,"Prescription, marijuana, cocaine, pills","Mix medicines (do not crush tablets or capsules) with an unpalatable substance such as dirt, cat litter, or used coffee grounds; Place the mixture in a container such as a sealed plastic bag; Throw the container in your household trash",,not recyclable
+Hazardous Materials,Fertilizers,"pesticides, manure, accelerants","If you have unwanted pesticide products, store them safely and dispose of them as soon as you can.",,not recyclable
+Hazardous Materials,Gas/Oil,"diesel, petrol, biofuel",Contact your local trash company if you have any concerns about the fuel and wish to dispose of it. ,,not recyclable
+Hazardous Materials,Sprays,"deodarants, hair sprays, air freshners","If empty, aerosol cans may be recyclable with steel cans. If partially full, they are treated as household hazardous waste. Hair spray does not have a recycling market but should be disposed of as household hazardous waste. If empty, the container may be recyclable.",,not recyclable
+Hazardous Materials,Insecticieds,"herbicides, bug repellant, pollen","Throw empty cans of bug spray, bug spray wipes or solid bug spray packaging into the trash can to be taken to the landfill. Take partially filled or full cans of bug spray to your local community's collection day.",,not recyclable
+Hazardous Materials,Thermostats,"mercuric, baric","Unlike mercury-based thermostats, you can deposit these thermostats at any location that accepts electronics for recycling (such as big box retailers like Staples and Best Buy). Just make sure you remove the batteries to recycle them separately.",,not recyclable
+Hazardous Materials,Paint,"acryllic, water colour, organic",Here's how to dispose of latex paint without taking it to a recycling center. Stir the cat litter into the paint until it thickens and will not spill. Throw the dried paint in the can in the garbage. Oil-based paints are considered hazardous waste and must be taken to a recycling center.,,not recyclable

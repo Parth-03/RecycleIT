@@ -25,6 +25,9 @@ class CollectionViewController: UICollectionViewController, UINavigationControll
     }
     
     func dataSetup(){
+        if !recycleItems.isEmpty{
+            return
+        }
         let csvPath = Bundle.main.path(forResource: "data", ofType: "csv")
         let csvURL = URL(fileURLWithPath: csvPath!)
         let stream = InputStream(url: csvURL)!
@@ -130,7 +133,7 @@ extension CollectionViewController: UIImagePickerControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.dismiss(animated: true){
             let randomNum = Int.random(in: 0..<self.recycleItems.count)
-            let item = self.recycleItems[randomNum]
+            let item = self.recycleItems[7]
             self.performSegue(withIdentifier: "ShowDetailFromCamera", sender: item)
         }
     }
